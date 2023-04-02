@@ -8,6 +8,25 @@ This dataset is from an unnamed contact center company who wishes to forecast th
 
 From visual inspection, data has little to no trend and with strong seasonality from it having values only on weekdays.
 
+```python
+# Load dataset using Pandas library
+
+df = pd.read_csv('volume_dataset.csv', parse_dates=['date'])
+df.head()
+df.shape
+
+```
+
+|    | date                |   calls_received |
+|---:|:--------------------|-----------------:|
+|  0 | 2020-10-02 00:00:00 |                0 |
+|  1 | 2020-10-03 00:00:00 |             2698 |
+|  2 | 2020-10-04 00:00:00 |             3105 |
+|  3 | 2020-10-05 00:00:00 |             2996 |
+|  4 | 2020-10-06 00:00:00 |             3033 |
+
+(175, 2)
+
 ***
 
 ### References
