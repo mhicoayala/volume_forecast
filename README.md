@@ -8,6 +8,8 @@ This dataset is from an unnamed contact center company who wishes to forecast th
 
 From visual inspection, data has little to no trend and with strong seasonality from it having values only on weekdays.
 
+A sample of the dataset is shown below; a total of 175 rows (days) are found in this data.
+
 ```python
 # Load dataset using Pandas library
 
@@ -26,6 +28,8 @@ df.shape
 |  4 | 2020-10-06 00:00:00 |             3033 |
 
 (175, 2)
+
+Essentially, data is cleaned. No duplicates nor date errors are present.
 
 ***
 
